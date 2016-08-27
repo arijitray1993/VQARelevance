@@ -32,7 +32,15 @@ Options are:
   - ```avgw2v``` : concatenates test question and generated question/caption features by averaging word2vec.
   - ```lstm``` : concatenates test question and generated question/caption features by feeding in the word2vec vectors into an lstm
   
-- [option3] : (optional) Path of pretrained weights. You will find some pretrained weights in the ```pretrainedCaptionFiles/``` folder. Note that these are not the exact models used in the paper, and so, the numbers might differ slightly, but will be very close. 
+- [option3] : (optional) Path of pretrained weights. You will find some pretrained weights in the ```outputmodels/``` folder. The following are the weights used in the final paper:
+  - Question-Caption Match:
+    - BoW:  ```outputmodels/2016-08-24\ 02\:51\:48.482004_qc_bow.h5```
+    - Avg Word2Vec:  ```outputmodels/2016-08-24\ 02\:47\:17.626481_qc_avgw2v.h5```
+    - LSTM:  ```outputmodels/2016-08-24\ 03\:32\:01.409005_qc_lstm.h5 ```
+  - Question-Question Match:
+    - BoW:   ```outputmodels/2016-08-24\ 02\:29\:46.027887_qq_bow.h5```
+    - Avg Word2Vec: ```outputmodels/2016-08-24\ 02\:19\:07.961071_qq_avgw2v.h5```
+    - LSTM:  ```outputmodels/2016-08-24\ 11\:54\:29.343364_qq_lstm.h5```
 
 - [option4] : If [option3] is not specified, the training is executed. Set ```FALSE``` to NOT save your trained model at the end of execution, default value is ```TRUE``` (i.e trained model will be saved)
 
