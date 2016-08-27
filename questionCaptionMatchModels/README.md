@@ -3,7 +3,20 @@
 Code for identifying True vs False Premise questions for a given image as described in the paper, Question Relevance in VQA:
 Identifying Non-Visual And False-Premise Questions,  https://arxiv.org/pdf/1606.06622v2.pdf
 
-How to run the code:
+### Pre-requisites:
+
+- Spacy: 
+  - ```pip install spacy```
+  - ```sputnik --name spacy --repository-url http://index.spacy.io install en==1.1.0```
+
+- Keras Deep Learning Library:
+  - ```pip install keras```
+
+- Scikit Learn Package
+  - ```pip install -U scikit-learn```
+
+
+### How to run the code:
 
 ```python questionCaptionModel.py --captype [option1] --model [option2] --loadweights [option3] --saveModel [option4]```
 
