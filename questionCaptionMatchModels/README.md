@@ -10,7 +10,7 @@ Identifying Non-Visual And False-Premise Questions,  https://arxiv.org/pdf/1606.
   - ```sputnik --name spacy --repository-url http://index.spacy.io install en==1.1.0```
 
 - Keras Deep Learning Library:
-  - ```pip install keras==0.3.2``` (make sure to include the ==0.3.2 part since that installs version 0,3,2. The code might crash with other versions since some layers used in the code might be deprecated/ implemented differently in other versions.)
+  - ```pip install keras==0.3.2``` (make sure to include the ==0.3.2 part since that installs version 0.3.2. The code might crash with other versions since some layers used in the code might be deprecated/ implemented differently in other versions.)
 
 - Scikit Learn Package
   - ```pip install -U scikit-learn```
