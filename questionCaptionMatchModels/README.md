@@ -10,11 +10,20 @@ Identifying Non-Visual And False-Premise Questions,  https://arxiv.org/pdf/1606.
   - ```sputnik --name spacy --repository-url http://index.spacy.io install en==1.1.0```
 
 - Keras Deep Learning Library:
-  - ```pip install keras```
+  - ```pip install keras==0.3.2``` (make sure to include the ==0.3.2 part since that installs version 0,3,2. The code might crash with other versions since some layers used in the code might be deprecated/ implemented differently in other versions.)
 
 - Scikit Learn Package
   - ```pip install -U scikit-learn```
 
+- h5py Package
+  - pip install h5py
+
+- Gensim Package
+  - pip install -U gensim
+
+(NOTE: You might need sudo access for any/all of the above. So, to install with sudo, just put ```sudo``` behind every command. If you do not have sudo, you can install all of the above in a virtual environment (see http://docs.python-guide.org/en/latest/dev/virtualenvs/).) 
+
+Phew, a lot of requirements! Sorry, no way around it!
 
 ### How to run the code:
 
