@@ -16,10 +16,10 @@ Identifying Non-Visual And False-Premise Questions,  https://arxiv.org/pdf/1606.
   - ```pip install -U scikit-learn```
 
 - h5py Package
-  - pip install h5py
+  - ```pip install h5py```
 
 - Gensim Package
-  - pip install -U gensim
+  - ```pip install -U gensim```
 
 (NOTE: You might need sudo access for any/all of the above. So, to install with sudo, just put ```sudo``` behind every command. If you do not have sudo, you can install all of the above in a virtual environment (see http://docs.python-guide.org/en/latest/dev/virtualenvs/).) 
 
