@@ -41,7 +41,7 @@ Options are:
   - ```avgw2v``` : concatenates test question and generated question/caption features by averaging word2vec.
   - ```lstm``` : concatenates test question and generated question/caption features by feeding in the word2vec vectors into an lstm
   
-- [option3] : (optional) Path of pretrained weights. You will find some pretrained weights in the ```outputmodels/``` folder. The final paper report the average performance of multiple runs to alleviate any accuracy spikes due to training noise. Following are the one of the weights used in computing the average in the final paper:
+- [option3] : (optional) Path of pretrained weights. You will find some pretrained weights in the ```outputmodels/``` folder. The final paper reports the average performance of multiple runs to alleviate any accuracy spikes due to training noise. Following are the one of the weights used in computing the average in the final paper:
   - Question-Caption Match:
     - BoW:  ```outputmodels/2016-08-24\ 02\:51\:48.482004_qc_bow.h5```
     - Avg Word2Vec:  ```outputmodels/2016-08-24\ 02\:47\:17.626481_qc_avgw2v.h5```
