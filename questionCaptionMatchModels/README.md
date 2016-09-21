@@ -52,6 +52,11 @@ Options are:
     - LSTM:  ```outputmodels/2016-08-24\ 11\:54\:29.343364_qq_lstm.h5```
 
 - [option4] : If [option3] is not specified, the training is executed. Set ```FALSE``` to NOT save your trained model at the end of execution, default value is ```TRUE``` (i.e trained model will be saved)
+ 
+TO RUN BASELINE MODELS:
+
+To run the Q-GEN-SCORE, VQA-MLP and Entropy models, go to the ```Baselines/``` folder and follow the instructions over there. 
+
 
 NOTE: The Questions/Captions for the images in the Visual True vs False Premise data for computing similarity with the test/train questions have already been pre-generated here. If you want to run it on your own set of images and test/train questions, you have to generate the captions/questions for the images using a caption generator. I used Andrej Karpathy's NeuralTalk2. Code and instructions for generating captions in the format our models need will be uploaded soon. Please email me if you need them immediately.  
 
