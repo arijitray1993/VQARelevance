@@ -100,8 +100,7 @@ def feature_extract_naive(unique_qi_applicable, image_captions, vocab, invertvoc
 						#ques_cap_features[index][count]=invertvocab[word]
 						#count+=1
 			applicable_labels.append(2-int(ques_entry[1]['label']))
-		else:
-			applicable_labels.append(0)
+			
 	return ques_cap_features,applicable_labels
 
 
